@@ -1,3 +1,40 @@
-.nav li{
-    margin:50px;
+.sectionParts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 20px 40px;
+    background-color: #edecec;
+    color: rgb(14, 14, 14);
+}
+
+.navClass{
+    display: flex; 
+    list-style-type: none;
+    margin-left: 650px;
+}
+
+.navList{
+    margin-left:20px;
+}
+
+.navTitle{
+    
+}
+
+
+/* Body Nav Screen Conditon */
+@media screen and (max-width: 600px){
+    .navClass{
+        display: contents;
+        margin-left: 650px;
+    }
+    .navList{
+        margin-top:10px;
+    }
+
+    .sectionParts{
+        background-color: rgb(236, 236, 236);
+        display:flow;
+    }
 }
